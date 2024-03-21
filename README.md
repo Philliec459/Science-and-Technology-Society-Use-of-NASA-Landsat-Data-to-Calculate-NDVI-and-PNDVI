@@ -69,7 +69,7 @@ Will any of this be publishable? There is probably much more to the study that w
 
     PNDVI = (Band 5 - Band 8)/(Band 5 + Band 8) 
 
-where Band 4 is the Red Spectral Band, Band 5 is the Near IR band and Band 8 is the Panchromatic band with increased resolution. For PNDVI we resolution match the Near IR Band 5 at 30m resolution to the Band 8 at 15m resolution for a PNDVI that has higher resolution than NDVI. NDVI is the more traditional approach, but we are testing PNDVI to see if this might provide a similar product to NDVI, but with increased resolution. 
+where Band 4 is the Red Spectral Band, Band 5 is the Near IR band and Band 8 is the Panchromatic band with increased resolution. For PNDVI we resolution match the Near IR Band 5 at 30m resolution to Band 8 at 15m resolution for a PNDVI that has higher resolution than NDVI. NDVI is the more traditional approach, but we are testing PNDVI to see if this might provide a similar product to NDVI, but with increased resolution. 
 
 We typically download the Level 2 processed Bands 4 and 5, but Band 8 only comes with the Level 1 processing data. At this point we are using Level 2 Bands 4 and 5 in combination with Band 8 Level 1 data in our processing. 
 

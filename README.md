@@ -1,0 +1,2 @@
+# Science-and-Technology-Society-Use-of-NASA-Landsat-Data-to-Calculate-NDVI-and-PNDVI
+The Science and Technology Society of Sarasota-Manatee Counties use Landsat data to calculate Normalized Difference Vegetative Index (NDVI) from Landsat NIR and Red Bands and Panchromatic Normalized Difference Vegetative Index (PNDVI) from Panchromatic and NIR Bands to assess the health of Mangrove Forests in Sarasota Bay

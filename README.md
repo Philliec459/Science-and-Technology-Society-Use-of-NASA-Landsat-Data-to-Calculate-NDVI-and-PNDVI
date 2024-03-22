@@ -88,6 +88,6 @@ This process is rather automatic in that the user only needs to define the path 
 
 ![image.png](Input.png)
 
-## **This is all automatic from this point on except for Slide Bar adjustments required on the Figures.**
+## **This is all automatic from this point on with Robinson Preserve preset Slide Bar adjustments. The Slide Bars would need to be adjusted to study any area outside of Robinson Preserve, and for any Landsat Tiles other than what is used in this example.**
 ---
 ---

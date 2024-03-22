@@ -3,9 +3,8 @@
 # Science-and-Technology-Society-Use-of-NASA-Landsat-Data-to-Calculate-NDVI-and-PNDVI
 The Science and Technology Society of Sarasota-Manatee Counties use Landsat 9 data to calculate Normalized Difference Vegetative Index (NDVI) from Landsat NIR Band 5 and Red Band 4 as well as our testing of the Panchromatic Normalized Difference Vegetative Index (PNDVI) from Panchromatic Band 8 and NIR Band 4 for a high resolution (15m) NDVI to assess the health of Mangrove Forests in Sarasota Bay, Florida. 
 
-The python code in this repository expects you to have downloaded your Landsat Bands 4 (red), 5 (NIR) and 8 (Panchromatic) spectral bands. 
+The python code in this repository expects you to have downloaded your Landsat Level 2 processed Bands 4 (red), 5 (NIR) and Level 1 processing Band 8 (Panchromatic) spectral bands. 
 
-![image.png](attachment:034d5e5d-38a7-4e47-9044-47a65544d457.png)
 
 # [STS](https://scienceandtechnologysociety.org/) Approach to Map Vegetative Habitats for a Proposed Study Areas in Robinson Preserve.
 

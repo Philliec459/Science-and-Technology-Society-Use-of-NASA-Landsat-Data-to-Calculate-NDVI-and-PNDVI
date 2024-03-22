@@ -87,3 +87,7 @@ This process is rather automatic in that the user only needs to define the path 
 ## And then our NDVI (Band_4 Red and Band_5 NIR) and PNDVI (Band_8 Panchromatic and Band_5 NIR) output file path names.
 
 ![image.png](Input.png)
+
+## **This is all automatic from this point on except for Slide Bar adjustments required on the Figures.**
+---
+---

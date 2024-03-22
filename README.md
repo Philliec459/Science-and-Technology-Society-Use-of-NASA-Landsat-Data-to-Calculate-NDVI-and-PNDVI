@@ -5,16 +5,19 @@ The Science and Technology Society of Sarasota-Manatee Counties use Landsat 9 da
 
 The python code in this repository expects you to have downloaded your Landsat Level 2 processed Bands 4 (red), 5 (NIR) and Level 1 processing Band 8 (Panchromatic) spectral bands. 
 
-
-![image.png](sts_nasa.png)
-
 # [STS](https://scienceandtechnologysociety.org/) Approach to Map Vegetative Habitats for a Proposed Study Areas in Robinson Preserve, Manatee County, Fl.
 
 ## Introduction:
 
 In a report supplied by Sherri Swanson of Manatee County called the Mangrove Heart Attack, the authors employ some interesting methods to identify Mangrove Forests from Landsat Spectral data. They calculated the Normalized Difference Vegetative Index (NDVI) from their Landsat-type data and then used simple NDVI cutoffs to differentiate and map their Mangrove Habitats and assess the health of these Mangroves too. 
 
-We were inspired by this report, so we tried some of the techniques mentioned in this report using python to process the data. We first went to [Earth Explorer](https://earthexplorer.usgs.gov/) to download our Level 1 and Level 2 Landsat data with all the spectral channels.  We applied a Reflectance Correction per the advice from Mike Taylor of NASA, and this made a huge difference with all the Landsat Band data corrected to Reflectance, epsecially from the Level 2 processed Landsat data used in Calculating NDVI. The following  equation was use to correct the raw Landsat Band data to Reflectance Band data:
+We were inspired by this report, so we tried some of the techniques mentioned in this report using python to process the data. We first went to [Earth Explorer](https://earthexplorer.usgs.gov/) to download our Level 1 and Level 2 Landsat data with all the spectral channels.  
+
+![image.png](EarthExplorer.png)
+
+You will need to setup an account in order to download any data. There is no charge for the account or for the downloading of the data.
+
+We applied a Reflectance Correction per the advice from Mike Taylor of NASA, and this made a huge difference with all the Landsat Band data corrected to Reflectance, epsecially from the Level 2 processed Landsat data used in Calculating NDVI. The following  equation was use to correct the raw Landsat Band data to Reflectance Band data:
 
     corrected_array = image_array * 0.0000275 - 0.2
 

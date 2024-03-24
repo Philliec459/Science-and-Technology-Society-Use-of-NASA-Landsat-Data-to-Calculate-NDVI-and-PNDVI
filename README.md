@@ -91,3 +91,12 @@ This process is rather automatic in that the user only needs to define the path 
 ## **This is all automatic from this point on with Robinson Preserve preset Slide Bar adjustments. The Slide Bars would need to be adjusted to study any area outside of Robinson Preserve, and for any Landsat Tiles other than what is used in this example.**
 ---
 ---
+# We have also included a Python Jupyter Notebook to un-Tar Landsat tar bundles downloaded from Earth Explorer or their Machine 2 Machine (M2M) python software.
+
+We first un-Tar the tar bundle in our python Jupyter Notebook and then combine Bands 2, 3 and 4 to create a Red-Green-Blue (RGB)image that we can viewed with matlpotlib. 
+
+![image.png](Landsat_RGB_tile.png)
+
+We have also included a X and Y slide bars so that we can zoom in on the data and also save the image. 
+
+![image.png](Landsat_RGB_zoom.png)
